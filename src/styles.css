@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#root {
+  margin-left: -7px;
+  margin-top: -7px;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: stretch;
+}
+
+.column-container {
+  height: 500;
+  width: "50%";
+  background-color: "#fff";
+  /* border-radius: "5px"; */
+}
